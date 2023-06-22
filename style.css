@@ -1,0 +1,156 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+.head{
+	  position: fixed;
+	  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: white;
+  z-index: 100;
+
+
+
+}
+
+.logo{
+	margin-left: 10px;
+
+	height: 40px;
+	width: 200px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
+.logo:hover{
+	background-color: lightgray;
+}
+
+
+.nav{
+	display: flex;
+	padding-right: 20px;
+}
+.nav a{
+
+   display: flex; 
+   justify-content: center;
+   align-items: center;
+   width: 100px;
+}
+
+.nav a:hover{
+	background-color: lightgray;
+}
+
+a{
+	text-decoration: none;
+    color: black;
+	font-size: 20px;
+}
+.hero-page{
+	background-image: url('https://www.w3schools.com/w3images/hamburger.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: flex-end;
+}
+.bg-text{
+	font-size: 40px;
+	color: grey;
+	padding-left: 25px;
+	padding-bottom: 20px;
+	letter-spacing: 3px;
+}
+.page-2{
+	padding-top: 50px;
+   display: flex;
+   justify-content: center;
+   column-gap: 50px;
+
+}
+
+.img-1{
+	width: 450px;/*
+	height: 650px;*/
+	border-radius: 10px;
+	opacity: 0.7;
+}
+.about-div{
+	width:500px;/*
+  background-color: lightgray;*/
+}
+
+.heading{
+	padding-top: 20px;
+	text-align: center;
+	letter-spacing: 5px;
+	word-spacing: 3px;
+	font-size: 35px;
+}
+
+.heading-2{
+  text-align: center;
+  padding-top: 40px;
+  letter-spacing: 5px;
+  word-spacing: 5px;
+}
+
+.para-1{
+	font-size: 18px;
+	padding-top: 30px;
+	word-spacing: 3px;
+	line-height: 25px;
+}
+span{
+	background-color: lightgrey;
+	padding: 3px;
+}
+
+.para-2{
+
+	font-size: 18px;
+	padding-top: 20px;
+	word-spacing: 3px;
+	line-height: 25px;
+	opacity: 0.7;
+}
+
+.HDPG-3{
+
+	font-size: 20px;
+	padding-top: 30px;
+	word-spacing: 3px;
+	letter-spacing: 5px;
+}
+
+.explanation{
+	padding-top: 20px;
+	opacity: 0.7;
+}
+
+@media screen and (max-width: 990px) {
+	.para-2{
+		display: none;
+	}
+	}
+
+	@media screen and (max-width: 700px) {
+       .img-1{
+       	display: none;
+       }
+       .nav{
+       	display: none;
+       }
+	}/*
+	@media screen and (max-width: 800px) {
+       .img-1{
+       	display: block;
+       }}*/
